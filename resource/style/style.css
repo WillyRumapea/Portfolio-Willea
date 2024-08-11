@@ -36,7 +36,7 @@ nav ul {
   height: 3em;
   list-style-type: none;
   position: fixed;
-  transform: translate(37%, -40%);
+  transform: translate(47%, -40%);
   padding: 8px;
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(6, 7, 15, 0.37);

@@ -99,7 +99,7 @@ img.foto-profil {
   border-radius: 50px;
   border: 5px solid #95c8c6d9;
   object-fit: cover;
-  object-position: center;
+  object-position: top;
 }
 
 .container-home h3 {
@@ -232,14 +232,28 @@ img.foto-profil {
   font-weight: 700;
 }
 
+.container-certification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  /* border: 1px solid; */
+}
+
+.list-certification-container {
+  width: 70em;
+  /* border: 1px solid; */
+}
+
 .list-project-container ul,
 .list-certification-container ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: column;
-  gap: 3rem;
-  padding: 10px;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 30px;
 }
 
 .list-project-container ul li,
@@ -323,7 +337,7 @@ img.foto-profil {
   gap: 10px;
   justify-content: center;
   align-items: center;
-  gap: 0.5rem;
+  gap: 1.5rem;
   /* border: 1px solid; */
 }
 

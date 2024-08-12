@@ -193,6 +193,11 @@ img.foto-profil {
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.container-home .logo-social a {
+  text-decoration: none;
+  color: #000;
+}
+
 .container-home .logo-social .border-logo {
   width: 35px;
   height: 35px;

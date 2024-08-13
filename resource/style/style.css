@@ -490,6 +490,9 @@ footer .copyright {
 
 /* media query phone */
 @media screen and (max-width: 480px) {
+  main {
+    gap: 1.5rem;
+  }
   nav.nav {
     display: none;
   }
@@ -519,7 +522,7 @@ footer .copyright {
     justify-content: center;
     list-style-type: none;
     gap: 10px;
-    /* border: 1px solid; */
+    border: 1px solid;
   }
 
   nav.side ul#navbar-side a {
@@ -535,7 +538,7 @@ footer .copyright {
   .home-section {
     height: 90vh;
     padding-top: 6rem;
-    /* border: 1px solid; */
+    border: 1px solid;
   }
 
   .container-home h3,
@@ -578,6 +581,10 @@ footer .copyright {
   .container-home .logo-social a .border-logo {
     width: 70%;
     /* border: 1px solid; */
+  }
+
+  .container-about {
+    border: 1px solid;
   }
 }
 /* media query phone */

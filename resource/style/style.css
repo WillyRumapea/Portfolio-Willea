@@ -504,11 +504,11 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     width: 40px;
-    height: 98vh;
+    height: 60vh;
     position: fixed;
     top: 1rem;
     left: 87vw;
-    /* border: 1px solid; */
+    border: 1px solid;
   }
 
   nav.side ul#navbar-side {

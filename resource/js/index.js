@@ -1,6 +1,6 @@
 const downloadCV = document.getElementById("download-CV");
 const connectLinkedin = document.getElementById("connect-linkedin");
-
+const navbarSide = document.getElementById("navbar-nav");
 downloadCV.addEventListener("click", () => {
   const link = document.createElement("a");
   link.href =
@@ -13,5 +13,3 @@ downloadCV.addEventListener("click", () => {
 connectLinkedin.addEventListener("click", () => {
   window.open("https://www.linkedin.com/in/willy-rumapea/", "_blank");
 });
-
-//

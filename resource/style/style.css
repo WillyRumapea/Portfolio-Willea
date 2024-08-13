@@ -513,7 +513,7 @@ footer .copyright {
     position: fixed;
     top: 1rem;
     left: 95vw;
-    /* border: 1px solid; */
+    border: 1px solid;
   }
 
   nav.side ul#navbar-side {
@@ -642,6 +642,22 @@ footer .copyright {
 
   .info-wrapper p {
     font-size: 10px;
+  }
+
+  .container-form-contact form {
+    width: 80vw;
+  }
+
+  .container-form-contact form input.email-input {
+    width: 210px;
+  }
+
+  .container-form-contact form input.message-input {
+    width: 210px;
+  }
+
+  .copyright h3 {
+    font-size: 80%;
   }
 }
 /* media query phone */

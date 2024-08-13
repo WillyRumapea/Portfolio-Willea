@@ -504,7 +504,7 @@ footer .copyright {
     justify-content: center;
     align-items: center;
     width: 40px;
-    height: 60vh;
+    height: 90vh;
     position: fixed;
     top: 1rem;
     left: 87vw;
@@ -518,6 +518,7 @@ footer .copyright {
     align-items: center;
     justify-content: center;
     list-style-type: none;
+    gap: 10px;
     /* border: 1px solid; */
   }
 
@@ -533,6 +534,7 @@ footer .copyright {
 
   .home-section {
     height: 90vh;
+    padding-top: 6rem;
     /* border: 1px solid; */
   }
 

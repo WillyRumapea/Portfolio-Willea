@@ -490,6 +490,9 @@ footer .copyright {
 
 /* media query phone */
 @media screen and (max-width: 480px) {
+  html {
+    overflow-x: hidden;
+  }
   main {
     justify-content: center;
     align-items: center;
@@ -512,8 +515,8 @@ footer .copyright {
     height: 90vh;
     position: fixed;
     top: 1rem;
-    left: 95vw;
-    border: 1px solid;
+    left: 93vw;
+    /* border: 1px solid; */
   }
 
   nav.side ul#navbar-side {

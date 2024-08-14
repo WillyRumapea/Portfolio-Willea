@@ -639,11 +639,20 @@ footer .copyright {
     /* border: 1px solid; */
   }
 
-  .list-certification-container ul li {
-    width: 100%;
+  .list-certification-container ul li.certification-list {
+    width: 350px;
     max-height: 8em;
     padding: 10px;
     /* border: 1px solid; */
+  }
+
+  .list-certification-container
+    ul
+    li.certification-list
+    .wrapper-certification
+    img {
+    width: 70px;
+    width: 70px;
   }
 
   .info-wrapper h4 {

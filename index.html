@@ -25,6 +25,10 @@
     <!-- Style-->
     <link rel="stylesheet" href="resource/style/style.css" />
     <!-- Style-->
+
+    <!-- animation on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- animation on scroll -->
   </head>
   <body>
     <header>
@@ -159,7 +163,11 @@
           </div>
           <div class="list-project-container">
             <ul>
-              <li class="project-list">
+              <li
+                class="project-list"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
                 <div class="wrapper-project">
                   <img
                     src="resource/img/project/MoRotie capstone.jpg"
@@ -175,7 +183,11 @@
                   </div>
                 </div>
               </li>
-              <li class="project-list">
+              <li
+                class="project-list"
+                data-aos="fade-up"
+                data-aos-duration="800"
+              >
                 <div class="wrapper-project">
                   <img
                     src="resource/img/project/asplesius capstone.jpg"
@@ -237,7 +249,7 @@
           </div>
           <div class="list-certification-container">
             <ul>
-              <li class="certification-list">
+              <li class="certification-list" data-aos="zoom-in-right">
                 <div class="wrapper-certification">
                   <img
                     src="resource/img/certification/Coursera FWUPBTD23WXP.jpg"
@@ -252,7 +264,7 @@
                   </div>
                 </div>
               </li>
-              <li class="certification-list">
+              <li class="certification-list" data-aos="zoom-in-left">
                 <div class="wrapper-certification">
                   <img
                     src="resource/img/certification/Coursera U2FJKUN8C6M6.jpg"
@@ -268,7 +280,7 @@
                   </div>
                 </div>
               </li>
-              <li class="certification-list">
+              <li class="certification-list" data-aos="zoom-in-right">
                 <div class="wrapper-certification">
                   <img
                     src="resource/img/certification/sertifikat BNSP.jpg"
@@ -284,7 +296,7 @@
                   </div>
                 </div>
               </li>
-              <li class="certification-list">
+              <li class="certification-list" data-aos="zoom-in-left">
                 <div class="wrapper-certification">
                   <img
                     src="resource/img/certification/penerapan machine learning.jpg"
@@ -299,7 +311,7 @@
                   </div>
                 </div>
               </li>
-              <li class="certification-list">
+              <li class="certification-list" data-aos="zoom-in-right">
                 <div class="wrapper-certification">
                   <img
                     src="resource/img/certification/menjadi cloud engineer.jpg"
@@ -314,7 +326,7 @@
                   </div>
                 </div>
               </li>
-              <li class="certification-list">
+              <li class="certification-list" data-aos="zoom-in-left">
                 <div class="wrapper-certification">
                   <img
                     src="resource/img/certification/menjadi backend pemula.jpg"
@@ -336,7 +348,7 @@
             <span class="material-symbols-outlined">School</span>
             <h2>Education</h2>
           </div>
-          <div class="list-education-container">
+          <div class="list-education-container" data-aos="flip-up">
             <div class="education-list-content">
               <img src="resource/img/education/Unhar.jpeg" alt="" />
               <div class="info-education-content">
@@ -345,7 +357,7 @@
                 <p>(2021-present)</p>
               </div>
             </div>
-            <div class="education-list-content">
+            <div class="education-list-content" data-aos="flip-up">
               <img src="resource/img/education/Bangkit Academy.jpg" alt="" />
               <div class="info-education-content">
                 <h4>Bangkit Academy</h4>
@@ -406,7 +418,13 @@
     </footer>
     <!-- script js -->
     <script src="resource/js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- script js -->
+    <!-- aos script -->
+    <script>
+      AOS.init();
+    </script>
+    <!-- aos script -->
     <!-- script icon -->
     <script>
       feather.replace();

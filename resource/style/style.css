@@ -540,6 +540,11 @@ footer .copyright {
     /* border: 1px solid; */
   }
 
+  .container-home img.foto-profil {
+    width: 100px;
+    height: 100px;
+  }
+
   .home-section {
     height: 80vh;
     justify-content: center;

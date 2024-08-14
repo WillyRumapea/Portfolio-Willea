@@ -561,8 +561,9 @@ footer .copyright {
 
   .container-home h3,
   .container-about h2,
-  .container-project h2 {
-    font-size: 90%;
+  .container-project h2,
+  .list-education-container .education-list-content .info-education-content h4 {
+    font-size: 80%;
   }
 
   .container-home p,
@@ -640,6 +641,7 @@ footer .copyright {
 
   .list-certification-container ul li {
     width: 50em;
+    max-height: 8em;
     padding: 10px;
     /* border: 1px solid; */
   }
@@ -648,8 +650,13 @@ footer .copyright {
     font-size: 12px;
   }
 
-  .info-wrapper p {
-    font-size: 10px;
+  .list-education-container .education-list-content {
+    width: 60%;
+    height: 5.5em;
+  }
+
+  .list-education-container .education-list-content .info-education-content p {
+    font-size: 9px;
   }
 
   .container-form-contact form {

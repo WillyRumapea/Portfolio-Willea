@@ -660,12 +660,13 @@ footer .copyright {
   }
 
   .list-education-container .education-list-content {
-    width: 60%;
+    justify-content: flex-start;
+    width: 80%;
     height: 5.5em;
   }
 
   .list-education-container .education-list-content .info-education-content p {
-    font-size: 9px;
+    font-size: 10px;
   }
 
   .container-form-contact form {

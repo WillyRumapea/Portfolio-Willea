@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -30,6 +31,7 @@ header nav {
 nav ul#navbar-side {
   display: none;
 }
+
 nav ul#navbar-nav {
   display: flex;
   justify-content: space-evenly;
@@ -74,6 +76,7 @@ main {
   flex-direction: column;
   gap: 10rem;
 }
+
 section {
   /* border: 1px solid; */
   padding: 10px;

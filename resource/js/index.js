@@ -1,6 +1,6 @@
 const downloadCV = document.getElementById("download-CV");
 const connectLinkedin = document.getElementById("connect-linkedin");
-const navbarSide = document.getElementById("navbar-nav");
+
 downloadCV.addEventListener("click", () => {
   const link = document.createElement("a");
   link.href =
